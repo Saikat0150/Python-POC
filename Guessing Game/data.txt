@@ -1,0 +1,12 @@
+board
+apple
+banana
+computer
+python
+programming
+sky
+moon
+sun
+earth
+kolkata
+london

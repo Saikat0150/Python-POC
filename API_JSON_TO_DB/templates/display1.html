@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Data</title>
+    <style>
+        .tr{
+        text-align: center;
+        }
+        .ldiv{
+        float:left;
+        }
+        .mdiv{
+        float:left;
+        }
+        .rdiv{
+        float:left;
+        }
+        .ldiv, .rdiv, .mdiv{
+        padding:2px;
+        border: solid black;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Display Data</h1>
+
+    <div class="ldiv">
+        <h2>Employee Details</h2>
+        <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        {% for employee in employee_details %}
+        <tr class="tr">
+            <td>{{ employee['id'] }}</td>
+            <td>{{ employee['name'] }}</td>
+            <td>{{ employee['age'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+
+
+    <div class="mdiv">
+        <h2>Employee Address</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Employee ID</th>
+            <th>Address</th>
+        </tr>
+        {% for employee in employee_address %}
+        <tr class="tr">
+            <td>{{ employee['id'] }}</td>
+            <td>{{ employee['employee_id'] }}</td>
+            <td>{{ employee['address'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+
+
+    <div class="rdiv">
+        <h2>Employee Salary</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Employee ID</th>
+            <th>Salary</th>
+        </tr>
+        {% for employee in employee_salary %}
+        <tr class="tr">
+            <td>{{ employee['id'] }}</td>
+            <td>{{ employee['employee_id'] }}</td>
+            <td>{{ employee['salary'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+</div>
+
+</body>
+</html>

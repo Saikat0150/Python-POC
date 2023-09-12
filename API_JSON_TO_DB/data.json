@@ -1,0 +1,23 @@
+[
+  {
+    "Name":"Nil",
+    "Age":22,
+    "Present_Address": "New Town",
+    "Permanent_Address": "Garia",
+    "Salary": 25000
+  },
+  {
+    "Name": "Sou",
+    "Age": 23,
+    "Present_Address": "Sec v",
+    "Permanent_Address": "Taki",
+    "Salary": 25000
+  },
+  {
+    "Name": "Dip",
+    "Age": 23,
+    "Present_Address": "Airport",
+    "Permanent_Address": "Pune",
+    "Salary": 5000
+  }
+]
