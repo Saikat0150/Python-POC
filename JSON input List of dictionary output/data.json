@@ -1,0 +1,287 @@
+{
+	"ue1":{
+		"flow" : "1",
+		"ids" : {
+			"supi" : "imsi-404300123456789",
+			"msisdn" : "91330123456789",
+			"extid" : ""
+		},
+		"secu" : {
+			"k" : "8baf473f2f8fd09487cccbd7097c6862",
+			"op" : "1006020f0a478bf6b699f15c062e42b3",
+			"profile_a_hnw_priv_key" : "6079066fcf9ce0a418b16b73e697af4229ef747432cf58e482af2f835bcca74f",
+			"profile_b_hnw_priv_key" : "308187020100301306072a8648ce3d020106082a8648ce3d030107046d306b02010104206d4bc43ba7a830a8524e046b2228319c6c4948cdfa2906bcf62177a47f697cd6a14403420004d6be93fc89924fb9b0a3000f959f704d053ea8a7be672669ce225edea6d94bb20e236847b6fb5afa73343df62db7ad2fb276c44507b3595e82e3896738ffe5bc"
+		},
+		"subs" : {
+			"allowed_sliecs" : [
+				{
+					"sst" : "001",
+					"sd" : ""
+				},
+				{
+					"sst" : "002",
+					"sd" : ""
+				}
+			],
+			"registered_tacs" : [
+				"000001",
+				"000002"
+			],
+			"subs_ue_ambr" : {
+				"ul_kbps" : "500000",
+				"dl_kbps" : "1000000"
+			}
+		},
+		"network" : {
+			"plmn" : {
+				"mcc" : "404",
+				"mnc" : "30"
+			},
+			"secu_cap" : {
+				"int" : "c000",
+				"enc" : "c000"
+			},
+			"amf_id" : {
+				"region" : "01",
+				"set" : "001",
+				"pointer" : "01"
+			},
+			"per_slice_dnns" : {
+				"001" : [
+					"internet"
+				],
+				"002-000002" : [
+					"ims"
+				]
+			}
+		}
+	},
+	"ue2":{
+		"flow" : "2",
+		"ids" : {
+			"supi" : "imsi-404300123456790",
+			"msisdn" : "91330123456790",
+			"extid" : ""
+		},
+		"secu" : {
+			"k" : "8baf473f2f8fd09487cccbd7097c6862",
+			"op" : "1006020f0a478bf6b699f15c062e42b3",
+			"profile_a_hnw_priv_key" : "6079066fcf9ce0a418b16b73e697af4229ef747432cf58e482af2f835bcca74f",
+			"profile_b_hnw_priv_key" : "308187020100301306072a8648ce3d020106082a8648ce3d030107046d306b02010104206d4bc43ba7a830a8524e046b2228319c6c4948cdfa2906bcf62177a47f697cd6a14403420004d6be93fc89924fb9b0a3000f959f704d053ea8a7be672669ce225edea6d94bb20e236847b6fb5afa73343df62db7ad2fb276c44507b3595e82e3896738ffe5bc"
+		},
+		"subs" : {
+			"allowed_sliecs" : [
+				{
+					"sst" : "001",
+					"sd" : ""
+				},
+				{
+					"sst" : "002",
+					"sd" : ""
+				}
+			],
+			"registered_tacs" : [
+				"000001",
+				"000002"
+			],
+			"subs_ue_ambr" : {
+				"ul_kbps" : "500000",
+				"dl_kbps" : "1000000"
+			}
+		},
+		"network" : {
+			"plmn" : {
+				"mcc" : "404",
+				"mnc" : "30"
+			},
+			"secu_cap" : {
+				"int" : "c000",
+				"enc" : "c000"
+			},
+			"amf_id" : {
+				"region" : "01",
+				"set" : "001",
+				"pointer" : "01"
+			},
+			"per_slice_dnns" : {
+				"001" : [
+					"internet"
+				],
+				"002-000002" : [
+					"ims"
+				]
+			}
+		}
+	},
+	"ue3": {
+		"flow" : "3",
+		"ids" : {
+			"supi" : "imsi-404300123456791",
+			"msisdn" : "91330123456791",
+			"extid" : ""
+		},
+		"secu" : {
+			"k" : "8baf473f2f8fd09487cccbd7097c6862",
+			"op" : "1006020f0a478bf6b699f15c062e42b3",
+			"profile_a_hnw_priv_key" : "6079066fcf9ce0a418b16b73e697af4229ef747432cf58e482af2f835bcca74f",
+			"profile_b_hnw_priv_key" : "308187020100301306072a8648ce3d020106082a8648ce3d030107046d306b02010104206d4bc43ba7a830a8524e046b2228319c6c4948cdfa2906bcf62177a47f697cd6a14403420004d6be93fc89924fb9b0a3000f959f704d053ea8a7be672669ce225edea6d94bb20e236847b6fb5afa73343df62db7ad2fb276c44507b3595e82e3896738ffe5bc"
+		},
+		"subs" : {
+			"allowed_sliecs" : [
+				{
+					"sst" : "001",
+					"sd" : ""
+				},
+				{
+					"sst" : "002",
+					"sd" : ""
+				}
+			],
+			"registered_tacs" : [
+				"000001",
+				"000002"
+			],
+			"subs_ue_ambr" : {
+				"ul_kbps" : "500000",
+				"dl_kbps" : "1000000"
+			}
+		},
+		"network" : {
+			"plmn" : {
+				"mcc" : "404",
+				"mnc" : "30"
+			},
+			"secu_cap" : {
+				"int" : "c000",
+				"enc" : "c000"
+			},
+			"amf_id" : {
+				"region" : "01",
+				"set" : "001",
+				"pointer" : "01"
+			},
+			"per_slice_dnns" : {
+				"001" : [
+					"internet"
+				],
+				"002-000002" : [
+					"ims"
+				]
+			}
+		}
+	},
+	"ue4":{
+		"flow" : "4",
+		"ids" : {
+			"supi" : "imsi-404300123456792",
+			"msisdn" : "91330123456792",
+			"extid" : ""
+		},
+		"secu" : {
+			"k" : "8baf473f2f8fd09487cccbd7097c6862",
+			"op" : "1006020f0a478bf6b699f15c062e42b3",
+			"profile_a_hnw_priv_key" : "6079066fcf9ce0a418b16b73e697af4229ef747432cf58e482af2f835bcca74f",
+			"profile_b_hnw_priv_key" : "308187020100301306072a8648ce3d020106082a8648ce3d030107046d306b02010104206d4bc43ba7a830a8524e046b2228319c6c4948cdfa2906bcf62177a47f697cd6a14403420004d6be93fc89924fb9b0a3000f959f704d053ea8a7be672669ce225edea6d94bb20e236847b6fb5afa73343df62db7ad2fb276c44507b3595e82e3896738ffe5bc"
+		},
+		"subs" : {
+			"allowed_sliecs" : [
+				{
+					"sst" : "001",
+					"sd" : ""
+				},
+				{
+					"sst" : "002",
+					"sd" : ""
+				}
+			],
+			"registered_tacs" : [
+				"000001",
+				"000002"
+			],
+			"subs_ue_ambr" : {
+				"ul_kbps" : "500000",
+				"dl_kbps" : "1000000"
+			}
+		},
+		"network" : {
+			"plmn" : {
+				"mcc" : "404",
+				"mnc" : "30"
+			},
+			"secu_cap" : {
+				"int" : "c000",
+				"enc" : "c000"
+			},
+			"amf_id" : {
+				"region" : "01",
+				"set" : "001",
+				"pointer" : "01"
+			},
+			"per_slice_dnns" : {
+				"001" : [
+					"internet"
+				],
+				"002-000002" : [
+					"ims"
+				]
+			}
+		}
+	},
+    "ue5":{
+		"flow" : "5",
+		"ids" : {
+			"supi" : "imsi-404300123456793",
+			"msisdn" : "91330123456793",
+			"extid" : ""
+		},
+		"secu" : {
+			"k" : "8baf473f2f8fd09487cccbd7097c6862",
+			"op" : "1006020f0a478bf6b699f15c062e42b3",
+			"profile_a_hnw_priv_key" : "6079066fcf9ce0a418b16b73e697af4229ef747432cf58e482af2f835bcca74f",
+			"profile_b_hnw_priv_key" : "308187020100301306072a8648ce3d020106082a8648ce3d030107046d306b02010104206d4bc43ba7a830a8524e046b2228319c6c4948cdfa2906bcf62177a47f697cd6a14403420004d6be93fc89924fb9b0a3000f959f704d053ea8a7be672669ce225edea6d94bb20e236847b6fb5afa73343df62db7ad2fb276c44507b3595e82e3896738ffe5bc"
+		},
+		"subs" : {
+			"allowed_sliecs" : [
+				{
+					"sst" : "005",
+					"sd" : ""
+				},
+				{
+					"sst" : "006",
+					"sd" : ""
+				}
+			],
+			"registered_tacs" : [
+				"000001",
+				"000002"
+			],
+			"subs_ue_ambr" : {
+				"ul_kbps" : "500000",
+				"dl_kbps" : "2000000"
+			}
+		},
+		"network" : {
+			"plmn" : {
+				"mcc" : "404",
+				"mnc" : "30"
+			},
+			"secu_cap" : {
+				"int" : "c000",
+				"enc" : "c000"
+			},
+			"amf_id" : {
+				"region" : "01",
+				"set" : "001",
+				"pointer" : "01"
+			},
+			"per_slice_dnns" : {
+				"001" : [
+					"internet"
+				],
+				"002-000002" : [
+					"ims"
+				]
+			}
+		}
+	}
+}
