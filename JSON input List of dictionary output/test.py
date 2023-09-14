@@ -36,5 +36,3 @@ with open('items.txt', 'w') as output_file:
     output_file.write(formatted_output)
 
 print(outlist)
-
-

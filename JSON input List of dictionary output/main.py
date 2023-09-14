@@ -32,5 +32,3 @@ for key, value in data.items():
     outlist.append({key: flow_item})
 
 print(outlist)
-
-
