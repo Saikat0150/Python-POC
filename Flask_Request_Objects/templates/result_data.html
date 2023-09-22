@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submitted Data</title>
+</head>
+<body>
+    <p><strong>Thanks for the registration. Cofirm your details.</strong></p>
+    <table border = 1>
+        {% for key, value in result.items() %}
+            <tr>
+                <th>{{ key.capitalize() }}</th>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>print table</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/print_table.css') }}"
+    />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th><h2>printing table of {{n}}</h2></th>
+      </tr>
+      {% for i in range(1,11): %}
+      <tr>
+        <td><h3>{{n}} X {{i}} = {{n * i}}</h3></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
